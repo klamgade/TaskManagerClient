@@ -1,10 +1,13 @@
+import React, { Fragment } from 'react';
+import MainNavigation from './components/main-navigation';
+
 import './App.css';
 
 function App() {
   return (
-    <div className='App'>
-      <h3>let get started!!!</h3>
-    </div>
+    <Fragment>
+      <MainNavigation />
+    </Fragment>
   );
 }
 
